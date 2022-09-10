@@ -308,7 +308,7 @@ int main(){
 
 	start:
 
-	system("CLS");
+
 
 	string usrn,pswd;
 
@@ -328,9 +328,9 @@ int main(){
 
 	{
 
-	system("CLS");
 
-	char ch;
+
+	int ch;
 
 	while(1){
 
@@ -348,49 +348,49 @@ int main(){
 
 	cout<<"Press 7 to exit"<<endl;
 
-	ch=getchar();
+	cin>>ch;
 
-	system("CLS");
+
 
 	switch(ch){
 
-		case '1':
+		case 1:
 
 			empdata();
 
 			break;
 
-		case '2':
+		case 2:
 
 			show();
 
 			break;
 
-		case '3':
+		case 3:
 
 			search();
 
 			break;
 
-		case '4':
+		case 4:
 
 			update();
 
 			break;
 
-		case '5':
+		case 5:
 
 			del();
 
 			break;
 
-		case '6':
+		case 6:
 
 			goto start;
 
 			break;
 
-		case '7':
+		case 7:
 
 			exit(0);
 
